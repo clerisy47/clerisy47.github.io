@@ -25,6 +25,3 @@ You can customize the website by modifying the code in the index.html, style.css
 
 # Credits
 This website template was created by Maclinz (The Code Dealer).
-
-# License
-This project is licensed under the MIT License. See the LICENSE file for details.
