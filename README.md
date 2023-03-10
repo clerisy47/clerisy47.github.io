@@ -24,4 +24,4 @@ cd your-portfolio-website
 You can customize the website by modifying the code in the index.html, style.css, and app.js files.
 
 # Credits
-This website template was created by Maclinz (The Code Dealer). 
+This website template was created by Maclinz (The Code Dealer).
