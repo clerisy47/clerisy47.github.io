@@ -1,5 +1,5 @@
 # Portfolio Website
-This is my portfolio website showcasing my work and skills. You can view it live at http://www.clerisyutsav47.com.np
+This is my portfolio website showcasing my work and skills. You can view it live at http://www.clerisyutsav47.com.np or https://clerisyutsav47.github.io/
 
 # Features
 Responsive design
