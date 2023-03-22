@@ -25,3 +25,4 @@ You can customize the website by modifying the code in the index.html, style.css
 
 # Credits
 This website template was created by Maclinz (The Code Dealer).
+
