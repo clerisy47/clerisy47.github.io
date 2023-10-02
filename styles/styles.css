@@ -478,24 +478,24 @@ section {
   grid-gap: 2rem;
   margin-top: 3rem;
 }
-.blogs .blog {
+.cerifications .cerification {
   position: relative;
   background-color: var(--color-grey-5);
   border-radius: 5px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.4s ease-in-out;
 }
-.blogs .blog:hover {
+.cerifications .cerification:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
 }
-.blogs .blog:hover img {
+.cerifications .cerification:hover img {
   filter: grayscale(0);
   transform: scale(1.1);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
 }
-.blogs .blog img {
+.cerifications .cerification img {
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -504,21 +504,21 @@ section {
   filter: grayscale(100%);
   transition: all 0.4s ease-in-out;
 }
-.blogs .blog .blog-text {
+.cerifications .cerifications .cerification-text {
   margin-top: -7px;
   padding: 1.1rem;
   border-top: 8px solid var(--color-secondary);
 }
-.blogs .blog .blog-text h4 {
+.cerifications .cerification .cerification-text h4 {
   font-size: 1.5rem;
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
-.blogs .blog .blog-text h4:hover {
+.cerifications .cerification .cerification-text h4:hover {
   color: var(--color-secondary);
 }
-.blogs .blog .blog-text p {
+.cerifications .cerification .cerification-text p {
   color: var(--color-grey-2);
   line-height: 2rem;
   padding-bottom: 1rem;

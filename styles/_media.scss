@@ -85,7 +85,7 @@
         margin-top: 1rem;
     }
 
-    .blogs{
+    .certifications{
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 6rem;
     }
@@ -178,7 +178,7 @@
 
 
 @media screen and (max-width:1250px){
-    .blogs{
+    .certifications{
         grid-template-columns: repeat(2, 1fr);
         margin-top: 6rem;
     }
@@ -191,7 +191,7 @@
 
 }
 @media screen and (max-width:660px){
-    .blogs{
+    .certifications{
         grid-template-columns: repeat(1, 1fr);
     }
     .portfolios{
