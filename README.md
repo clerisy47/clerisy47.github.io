@@ -2,15 +2,13 @@
 This is my portfolio website showcasing my work and skills. You can view it live at https://clerisyutsav47.github.io/
 
 # Features
-Responsive design
-Clean and modern layout
-Showcase your work and skills
-Contact form
-Easy customization
+Responsive design with Clean and modern layout
+Showcasingmy work and skills
 
 # Technologies Used
 HTML
 CSS
+Bootstrap
 JavaScript
 
 # Installation and Setup
