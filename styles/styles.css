@@ -472,7 +472,7 @@ section {
   transform: scale(1);
 }
 
-.blogs {
+.cerifications {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
@@ -777,7 +777,7 @@ section {
     margin-top: 1rem;
   }
 
-  .blogs {
+  .cerifications {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
@@ -859,7 +859,7 @@ section {
   }
 }
 @media screen and (max-width: 1250px) {
-  .blogs {
+  .cerifications {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
   }
@@ -873,7 +873,7 @@ section {
   }
 }
 @media screen and (max-width: 660px) {
-  .blogs {
+  .cerifications {
     grid-template-columns: repeat(1, 1fr);
   }
 
