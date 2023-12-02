@@ -183,10 +183,6 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(100%);
-}
-.header-content .left-header .image img:hover {
-  filter: grayscale(0);
 }
 .header-content .right-header {
   display: flex;
