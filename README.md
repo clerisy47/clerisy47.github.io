@@ -1,5 +1,5 @@
 # Portfolio Website
-This is my portfolio website showcasing my work and skills. You can view it live at [here](https:/utsav47.com.np/)
+This is my portfolio website showcasing my work and skills. You can view it live at [here](https://utsav47.com.np/)
 
 # Features
 Responsive design with Clean and modern layout
