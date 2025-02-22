@@ -721,6 +721,31 @@ section {
   padding-left: 0;
 }
 
+.skills-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.skill-card p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
