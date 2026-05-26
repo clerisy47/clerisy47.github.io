@@ -308,9 +308,24 @@ a {
   width: 100%;
 }
 
+.container.about,
+#portfolio,
+#contact {
+  max-width: 100%;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 /* ABOUT SECTION */
 .about {
   background: linear-gradient(135deg, var(--color-grey-6) 0%, var(--color-primary) 100%);
+}
+
+.about > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-title {
@@ -390,6 +405,29 @@ a {
   text-align: center;
   padding: 3rem 0;
   color: var(--color-white);
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.stat-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-secondary), var(--color-tertiary));
+  border-radius: 2px;
+}
+
+.stat-title span {
+  background: linear-gradient(135deg, var(--color-secondary), var(--color-tertiary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .skills-cards {
@@ -509,6 +547,12 @@ a {
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-grey-6) 100%);
 }
 
+#portfolio > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .port-text {
   text-align: center;
   font-size: 1.2rem;
@@ -603,6 +647,12 @@ a {
 /* CONTACT SECTION */
 #contact {
   background: linear-gradient(135deg, var(--color-grey-6) 0%, var(--color-primary) 100%);
+}
+
+#contact > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-content-con {
