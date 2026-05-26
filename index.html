@@ -5,47 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utsav's portfolio</title>
+    <title>Utsav Acharya - Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-
     <script src="https://kit.fontawesome.com/2cbbf6159b.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/pfp.png" alt="">
-                </div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>clerisy47</span>
             </div>
-            <div class="right-header">
-                <h5 class="name">
-                    Hi, I'm <span>Utsav Acharya.</span>
-                </h5>
-                <p>
-                    I am a Data Scientist, driven by the pursuit of extracting profound insights from data,<br><br>
-                    a Backend Engineer, finding joy in architecting robust systems that seamlessly blend efficiency with
-                    innovation,<br><br>
-                    a Competitive Programmer who thrives on unraveling complex challenges with elegant and optimized
-                    solutions and a life long student, who wants to keep learning everyday. <br><br>
-                    If you are seeking a dynamic professional capable of delivering peak productivity to your projects,
-                    please feel free to reach out to me take a glance at the contact section.
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active-nav">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Utsav Acharya</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Data Scientist | Backend Engineer | Competitive Programmer
                 </p>
-                <div class="btn-con">
+                <p class="hero-description">
+                    Extracting profound insights from data, architecting robust systems, and solving complex challenges with elegant solutions. A lifelong learner committed to continuous growth.
+                </p>
+                <div class="hero-buttons">
                     <a href="CV.pdf" class="main-btn">
                         <span class="btn-text">Download CV</span>
                         <span class="btn-icon"><i class="fas fa-download"></i></span>
                     </a>
+                    <a href="#contact" class="secondary-btn">
+                        <span class="btn-text">Get In Touch</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="img/pfp.png" alt="Utsav Acharya">
                 </div>
             </div>
         </div>
     </header>
+
     <main>
         <section class="container about" id="about">
             <div class="main-title">
@@ -55,26 +68,26 @@
                 <div class="right-about">
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">10+</p>
+                            <p class="large-text">15+</p>
                             <p class="small-text">Projects <br /> Completed</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">1+</p>
+                            <p class="large-text">3+</p>
                             <p class="small-text">Years of <br /> experience</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
                             <p class="large-text">500+</p>
-                            <p class="small-text">Happy <br /> Community Members</p>
+                            <p class="small-text">Community <br /> Members Led</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">100+</p>
-                            <p class="small-text">Students <br /> taught</p>
+                            <p class="large-text">200+</p>
+                            <p class="small-text">Students <br /> Mentored</p>
                         </div>
                     </div>
                 </div>
@@ -87,12 +100,40 @@
                         <p>Python</p>
                     </div>
                     <div class="skill-card">
-                        <img src="img/skills/javascript.png" alt="Javascript">
-                        <p>Javascript</p>
+                        <img src="img/skills/flask.png" alt="Flask">
+                        <p>Flask</p>
                     </div>
                     <div class="skill-card">
-                        <img src="img/skills/javascript.png" alt="Javascript">
-                        <p>Javascript</p>
+                        <img src="img/skills/fastapi.png" alt="FastAPI">
+                        <p>FastAPI</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img/skills/pytorch.png" alt="PyTorch">
+                        <p>PyTorch</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img/skills/tensorflow.png" alt="TensorFlow">
+                        <p>TensorFlow</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img/skills/pandas.png" alt="Pandas">
+                        <p>Pandas</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img/skills/scipy.png" alt="SciPy">
+                        <p>SciPy</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img/skills/langchain.png" alt="LangChain">
+                        <p>LangChain</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img/skills/langgraph.png" alt="LangGraph">
+                        <p>LangGraph</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img/skills/docker.png" alt="Docker">
+                        <p>Docker</p>
                     </div>
                 </div>
             </div>
@@ -102,54 +143,33 @@
                                 <div class="tl-icon">
                                     <i class="fas fa-briefcase"></i>
                                 </div>
-                                <p class="tl-duration">Sep 2023 - Nov 2023</p>
-                                <h5>Data Science and Business Analytics Intern<span> <br> The Sparks Foundation</span>
-                                </h5>
+                                <p class="tl-duration">Apr 2025 - Nov 2025</p>
+                                <h5>Student Trainee<span> <br> NAAMI</span></h5>
                                 <p>
-                                    Did Exploratory Data Analysis on COVID from covid19.who.int/data <br><br>
-                                    Did Exploratory Data Analysis on IPL from cricketapi.com/v5/package/ipl-2023
+                                    Conducting computer vision research in physics lab focused on disease detection in rice crops; <br><br>
+                                    Behavioral monitoring of poultry
                                 </p>
                             </div>
                             <div class="timeline-item">
                                 <div class="tl-icon">
                                     <i class="fas fa-briefcase"></i>
                                 </div>
-                                <p class="tl-duration">Aug 2022 - Sept 2023</p>
-                                <h5>Data Science Intern<span> <br> LetsGrowMore</span></h5>
+                                <p class="tl-duration">Nov 2023 - Mar 2025</p>
+                                <h5>Backend Engineer and Data Scientist<span> <br> Omdena</span></h5>
                                 <p>
-                                    Built a full stack tomato disease classification app for farmers. <br><br>
-                                    Built a sentiment analysis music recommendation app
+                                    Participated in real-world deployed projects including: <br><br>
+                                    Combatting illegal deforestation in Romania, Mapping Seagrass Meadows, Agriculture Analysis on Kenya
                                 </p>
                             </div>
                             <div class="timeline-item">
                                 <div class="tl-icon">
                                     <i class="fas fa-briefcase"></i>
                                 </div>
-                                <p class="tl-duration">Mar 2022 - Aug 2023</p>
-                                <h5>Cofounder, Secretary<span> <br> Toegether We Learn (TWL)</span></h5>
+                                <p class="tl-duration">Sep 2023 - Oct 2023</p>
+                                <h5>Data Science and Business Analytics Intern<span> <br> The Sparks Foundation</span></h5>
                                 <p>
-                                    Built an organization of 500+ members and led them; <br><br>
-                                    Conducted 5+ webinars on programming-related topics, sharing knowledge and insights
-                                    with a broad
-                                    audience; <br><br>
-                                    Wrote 10+ newsletters focused on machine learning and data science, providing
-                                    valuable
-                                    information and updates to 200+ subscribers; <br><br>
-                                </p>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="tl-icon">
-                                    <i class="fas fa-briefcase"></i>
-                                </div>
-                                <p class="tl-duration">Nov 2022 - Oct 2023</p>
-                                <h5>Community Builder<span> <br> Data Research Council for Students (DCRFS)</span></h5>
-                                <p>
-                                    Mentored 200+ students in intermediate Python, providing guidance and support to
-                                    help them
-                                    improve their skills; <br> <br>
-                                    Managed GitHub repositories, social media accounts, and Discord servers, ensuring
-                                    that these
-                                    platforms were up-to-date and effectively engaged with our community; <br><br>
+                                    Created Raspberry Pi app for Tomato Disease Classification; <br><br>
+                                    Did Exploratory Data Analysis on IPL 2023
                                 </p>
                             </div>
                         </div>
@@ -160,22 +180,21 @@
                                     <i class="fas fa-briefcase"></i>
                                 </div>
                                 <p class="tl-duration">2023 - present</p>
-                                <h5>Bachelors in Computer Engineering<span> <br> Pulchowk Engineering Campus</span></h5>
+                                <h5>Bachelor's in Computer Engineering<span> <br> Pulchowk Engineering Campus</span></h5>
                                 <p>
-                                    Learned Low Level Programming (C and C++). <br> <br>
-                                    Learned Statistics, Probability, Linear Algebra and Calculus.
+                                    Kathmandu, Nepal <br><br>
+                                    Average Percentage: 82.4
                                 </p>
                             </div>
                             <div class="timeline-item">
                                 <div class="tl-icon">
                                     <i class="fas fa-briefcase"></i>
                                 </div>
-                                <p class="tl-duration">2021 - 2022</p>
-                                <h5>Highscool<span> <br> Capital College and Research Centre</span></h5>
+                                <p class="tl-duration">2021 - 2023</p>
+                                <h5>High School<span> <br> Capital College and Research Centre</span></h5>
                                 <p>
-                                    Grasped solid understanding on Mathematics and Physics. <br><br>
-                                    Learned Low Level Programming (C and C++). <br><br>
-                                    Learned essentials of Web Development particulaly HTML, CSS, Javascript and PHP.
+                                    Kathmandu, Nepal <br><br>
+                                    GPA: 3.91 + 3.73
                                 </p>
                             </div>
                         </div>
@@ -185,83 +204,88 @@
                 <h2>My <span>Projects</span></h2>
             </div>
             <p class="port-text">
-                Some of my works that I've done are as follows:-
+                Academic and professional projects that demonstrate my expertise in AI, Backend Development, and Data Science.
             </p>
             <div class="portfolios">
                 <div class="portfolio-item">
                     <div class="image">
-                        <img src="img/port1.png" alt="">
+                        <img src="img/mediwo.png" alt="MEDIWO - Medical Workflow">
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3>MEDIWO - LLM Medical Workflow</h3>
+                        <p>React, FastAPI, MongoDB, RAG Pipeline, Gemini</p>
+                        <div class="icons">
+                            <a href="https://github.com/clerisy47" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/compliance.png" alt="Compliance Guide">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Compliance Guide</h3>
+                        <p>LLM, RAG, Llama, Streamlit, 95% Accuracy</p>
+                        <div class="icons">
+                            <a href="https://github.com/clerisy47" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/voltvision.png" alt="Volt Vision">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Volt Vision - Energy Forecasting</h3>
+                        <p>XGBoost, SARIMAX, ARIMAX, MLflow, ZenML</p>
+                        <div class="icons">
+                            <a href="https://github.com/clerisy47" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/guardianthield.png" alt="Guardian Shield">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Guardian Shield - Security Extension</h3>
+                        <p>Chrome Extension, BERT, Pegasus Transformer, PyTorch</p>
+                        <div class="icons">
+                            <a href="https://github.com/clerisy47" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/cricpix.png" alt="CricPix Classifier">
+                    </div>
+                    <div class="hover-items">
+                        <h3>CricPix - Cricket Image Classifier</h3>
+                        <p>Computer Vision, Deep Learning</p>
                         <div class="icons">
                             <a href="https://github.com/clerisy47/CricPix-Classifier" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio-item">
                     <div class="image">
-                        <img src="img/port2.png" alt="">
+                        <img src="img/moodmeter.png" alt="MoodMeter">
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3>MoodMeter - Music Recommendation</h3>
+                        <p>Sentiment Analysis, NLP</p>
                         <div class="icons">
                             <a href="https://github.com/clerisy47/MoodMeter" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port3.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/clerisy47/LeafGuard" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port4.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/clerisy47/Review-Ranger" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port5.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/clerisy47/Celestial-Odyssey" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port6.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="https://github.com/clerisy47/Flappy-AI" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -356,20 +380,6 @@
         </section>
     </main>
 
-    <div class="controls">
-        <div class="control active-btn" data-id="home">
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
-        </div>
-    </div>
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div>
