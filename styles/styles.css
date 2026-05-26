@@ -469,6 +469,32 @@ a {
   color: var(--color-white);
 }
 
+.skills-category {
+  margin-bottom: 4rem;
+}
+
+.category-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-bottom: 2rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.category-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 1.5rem;
+  background: linear-gradient(135deg, var(--color-secondary), var(--color-tertiary));
+  border-radius: 2px;
+}
+
 /* TIMELINE */
 .timeline {
   display: grid;
