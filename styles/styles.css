@@ -500,7 +500,8 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2.5rem;
-  margin: 2rem 0 4rem 0;
+  margin: 2rem auto 4rem auto;
+  justify-content: center;
 }
 
 .timeline-item {
